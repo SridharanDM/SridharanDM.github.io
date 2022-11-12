@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="dark">
+      Design Prototype
+
+      <button onclick="myFunction()">Dark Mode</button>
+    </div>
+    <div class="heading">
+      <div>Home</div>
+      <div>About</div>
+      <div>Work Process</div>
+      <div>Testimoniols</div>
+      <div>Pricing Tables</div>
+      <div>Blog Entries</div>
+      <div>Contact Us</div>
+    </div>
+
+    <div class="firstheading">
+      Front End developer architects and develops Websites and applications
+      using web Technologies
+    </div>
+
+    <center><button>DISCOVER MORE</button></center>
+
+    <div class="boxes">
+      <div class="box">
+        <div class="box1"></div>
+        <div class="box1-heading">Responsive</div>
+        <div class="box1-text">
+          Responsive design is an approach to web page creation that makes use
+          of flexible layouts
+        </div>
+      </div>
+      <div class="box">
+        <div class="box1"></div>
+        <div class="box1-heading">Better UI/UX</div>
+        <div class="box1-text">
+          Create your-friendly interface that enable users to understand how to
+          use complex technical products
+        </div>
+      </div>
+      <div class="box">
+        <div class="box1"></div>
+        <div class="box1-heading">SEO</div>
+        <div class="box3-text">
+          Search Engine Optimization and is the process used to optimize a
+          websites technical configuration/ content relevance and link
+          popularity to its pages can become easily finable.
+        </div>
+      </div>
+    </div>
+
+    <div class="second-heading">Work Process</div>
+
+    <p>
+      When divided into 5 steps the design process ranges form identifying the
+      problem that the design or product will solve. all the way to research,
+      planning, prototyping and more.
+    </p>
+
+    <div class="boxes2">
+      <div class="smallbox">
+        <div class="smallheading">Get ideas</div>
+
+        <div class="smalltext">You'll figure out the market state</div>
+      </div>
+      <div class="smallbox">
+        <div class="smallheading">Sketch Up</div>
+
+        <div class="smalltext">Sketch Up using tools like figma,</div>
+      </div>
+      <div class="smallbox">
+        <div class="smallheading">Design</div>
+
+        <div class="smalltext">Construct HTML, CSS, script.</div>
+      </div>
+      <div class="smallbox">
+        <div class="smallheading">Content Creation</div>
+
+        <div class="smalltext">Get the professional content.</div>
+      </div>
+      <div class="smallbox">
+        <div class="smallheading">Launch</div>
+
+        <div class="smalltext">Host in a website to access</div>
+      </div>
+    </div>
+
+    <div class="thirdheading">What do the say?</div>
+
+    <p class="thirdsmallheading">
+      Donec tempus, sem non rutrum imperdiet. Lectus orci fringilla nulla at
+      accumsan elit eros a turpis. Ut sagittis tectus libero.
+    </p>
+
+    <div class="boxthird">
+      <div class="box">
+        <div class="text">
+          Responsive design is an approach to web page creation that makes use
+          of flexible layouts
+        </div>
+        <div class="bottomtext1">Get the professional</div>
+        <div class="bottomtext2">Content.</div>
+      </div>
+      <div class="box">
+        <div class="text">
+          Create user-friendly interface that enable users to understand how to
+          use complex technical products
+        </div>
+        <div class="bottomtext1">Get the professional</div>
+        <div class="bottomtext2">Content.</div>
+      </div>
+      <div class="box">
+        <div class="text">
+          Search Engine Optimization and is the process used to optimize a
+          websites technical configuration/ content relevance and link
+          popularity so its pages can become easily finable.
+        </div>
+        <div class="bottomtext3">Get the professional</div>
+        <div class="bottomtext4">Content.</div>
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("darkmode");
+      }
+    </script>
+  </body>
+
+  <style>
+    .dark {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    @media (min-width: 480px) {
+      .dark {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+    @media (min-width: 768px) {
+      .dark {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 22px;
+        font-weight: bold;
+      }
+    }
+    @media (min-width: 1024px) {
+      .dark {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 24px;
+        font-weight: bold;
+      }
+    }
+    @media (min-width: 1200px) {
+      .dark {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 26px;
+        font-weight: bold;
+      }
+    }
+    .darkmode {
+      background-color: black;
+      color: white;
+    }
+    .heading {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 20px;
+    }
+
+    @media (min-width: 480px) {
+      .heading {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 30px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .heading {
+        display: flex;
+        text-align: center;
+        font-size: 16px;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 30px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .heading div:hover {
+        background-color: antiquewhite;
+        padding: 5px;
+        border-radius: 5px;
+        border-bottom: 2px solid black;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .heading {
+        display: flex;
+        padding-top: 30px;
+        padding-left: 150px;
+        padding-right: 150px;
+        justify-content: center;
+        justify-content: space-evenly;
+        font-size: medium;
+      }
+    }
+    @media (min-width: 1024px) {
+      .heading div:hover {
+        background-color: antiquewhite;
+        padding: 5px;
+        border-radius: 5px;
+        border-bottom: 2px solid black;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .heading {
+        display: flex;
+        padding-top: 30px;
+        padding-left: 150px;
+        padding-right: 150px;
+        justify-content: center;
+        justify-content: space-evenly;
+        font-size: medium;
+      }
+    }
+    @media (min-width: 1200px) {
+      .heading div:hover {
+        background-color: antiquewhite;
+        padding: 5px;
+        border-radius: 5px;
+        border-bottom: 2px solid black;
+      }
+    }
+
+    .heading div {
+      margin-top: 5px;
+    }
+    @media (min-width: 480px) {
+      .heading div {
+        margin-top: 7px;
+      }
+    }
+
+    .firstheading {
+      text-align: center;
+      font-size: 15px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    @media (min-width: 480px) {
+      .firstheading {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 900;
+        margin-top: 22px;
+        padding-left: 70px;
+        padding-right: 70px;
+      }
+    }
+    @media (min-width: 768px) {
+      .firstheading {
+        text-align: center;
+        font-size: 19px;
+        font-weight: 900;
+        margin-top: 30px;
+        padding-left: 190px;
+        padding-right: 190px;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .firstheading {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        padding-top: 4px;
+        padding-left: 290px;
+        padding-right: 290px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .firstheading {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        padding-top: 4px;
+        padding-left: 190px;
+        padding-right: 190px;
+      }
+    }
+
+    center button {
+      margin-top: 20px;
+      width: 120px;
+      height: 20px;
+      background-color: #bfbfbf;
+      font-size: 12px;
+    }
+
+    @media (min-width: 480px) {
+      center button {
+        margin-top: 22px;
+        width: 140px;
+        height: 30px;
+        background-color: #bfbfbf;
+        font-size: 14px;
+      }
+    }
+    @media (min-width: 768px) {
+      center button {
+        margin-top: 25px;
+        width: 160px;
+        height: 30px;
+        background-color: #bfbfbf;
+        font-size: 16px;
+      }
+    }
+    @media (min-width: 1024px) {
+      center button {
+        margin-top: 30px;
+        width: 170px;
+        height: 35px;
+        background-color: #bfbfbf;
+      }
+    }
+    @media (min-width: 1200px) {
+      center button {
+        margin-top: 30px;
+        width: 170px;
+        height: 35px;
+        background-color: #bfbfbf;
+      }
+    }
+    .boxes {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    @media (min-width: 480px) {
+      .boxes {
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+    }
+    @media (min-width: 768px) {
+      .boxes {
+        padding-left: 200px;
+        padding-right: 200px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .boxes {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 90px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .boxes {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 90px;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+    }
+    .box {
+      height: 180px;
+      margin-top: 30px;
+      border-style: groove;
+    }
+    @media (min-width: 480px) {
+      .box {
+        height: 200px;
+        margin-top: 32px;
+        border-style: groove;
+      }
+    }
+    @media (min-width: 768px) {
+      .box {
+        height: 250px;
+        margin-top: 32px;
+        border-style: groove;
+      }
+    }
+    @media (min-width: 1024px) {
+      .box {
+        width: 300px;
+        height: 250px;
+        border-style: groove;
+      }
+    }
+    @media (min-width: 1200px) {
+      .box {
+        width: 320px;
+        height: 270px;
+        border-style: groove;
+      }
+    }
+    .box1 {
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+      background-color: #bfbfbf;
+      margin: auto;
+      margin-top: 15px;
+    }
+    @media (min-width: 480px) {
+      .box1 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: #bfbfbf;
+        margin: auto;
+        margin-top: 17px;
+      }
+    }
+    @media (min-width: 768px) {
+      .box1 {
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        background-color: #bfbfbf;
+        margin: auto;
+        margin-top: 30px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .box1 {
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        background-color: #bfbfbf;
+        margin: auto;
+        margin-top: 30px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .box1 {
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        background-color: #bfbfbf;
+        margin: auto;
+        margin-top: 30px;
+      }
+    }
+
+    .box1-heading {
+      text-align: center;
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    @media (min-width: 480px) {
+      .box1-heading {
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        margin-top: 17px;
+      }
+    }
+    @media (min-width: 768px) {
+      .box1-heading {
+        text-align: center;
+        font-size: 19px;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .box1-heading {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 30px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .box1-heading {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 30px;
+      }
+    }
+    .box1-text {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 20px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    @media (min-width: 480px) {
+      .box1-text {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 22px;
+        padding-left: 7px;
+        padding-right: 7px;
+      }
+    }
+    @media (min-width: 768px) {
+      .box1-text {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .box1-text {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 30px;
+        padding-left: 45px;
+        padding-right: 45px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .box1-text {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 30px;
+        padding-left: 45px;
+        padding-right: 45px;
+      }
+    }
+
+    .box3-text {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 5px;
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+    @media (min-width: 480px) {
+      .box3-text {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 7px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
+    @media (min-width: 768px) {
+      .box3-text {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .box3-text {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 15px;
+        padding-left: 35px;
+        padding-right: 35px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .box3-text {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 15px;
+        padding-left: 35px;
+        padding-right: 35px;
+      }
+    }
+    .second-heading {
+      text-align: center;
+      font-size: 15px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+    @media (min-width: 480px) {
+      .second-heading {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 900;
+        margin-top: 22px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .second-heading {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 40px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .second-heading {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 40px;
+      }
+    }
+
+    p {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    @media (min-width: 480px) {
+      p {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 22px;
+        padding-left: 17px;
+        padding-right: 17px;
+      }
+    }
+    @media (min-width: 768px) {
+      p {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 27px;
+        padding-left: 110px;
+        padding-right: 110px;
+      }
+    }
+    @media (min-width: 1024px) {
+      p {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 20px;
+        padding-left: 240px;
+        padding-right: 240px;
+      }
+    }
+    @media (min-width: 1200px) {
+      p {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 20px;
+        padding-left: 360px;
+        padding-right: 360px;
+      }
+    }
+    .boxes2 {
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+    @media (min-width: 480px) {
+      .boxes2 {
+        padding-left: 130px;
+        padding-right: 130px;
+      }
+    }
+    @media (min-width: 768px) {
+      .boxes2 {
+        padding-left: 270px;
+        padding-right: 270px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .boxes2 {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .boxes2 {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+        padding-left: 110px;
+        padding-right: 110px;
+      }
+    }
+    .smallbox {
+      margin-top: 20px;
+      height: 100px;
+      border-style: groove;
+    }
+    @media (min-width: 480px) {
+      .smallbox {
+        margin-top: 22px;
+        height: 120px;
+        border-style: groove;
+      }
+    }
+    @media (min-width: 768px) {
+      .smallbox {
+        margin-top: 28px;
+        height: 140px;
+        border-style: groove;
+      }
+    }
+    @media (min-width: 1024px) {
+      .smallbox {
+        width: 170px;
+        height: 130px;
+        border-style: groove;
+        margin-top: 1px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .smallbox {
+        width: 180px;
+        height: 140px;
+        border-style: groove;
+      }
+    }
+
+    .smallheading {
+      text-align: center;
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    @media (min-width: 480px) {
+      .smallheading {
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        margin-top: 22px;
+      }
+    }
+    @media (min-width: 768px) {
+      .smallheading {
+        text-align: center;
+        font-size: 19px;
+        font-weight: bold;
+        margin-top: 27px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .smallheading {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 30px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .smallheading {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 30px;
+      }
+    }
+    .smalltext {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 20px;
+      padding-left: 13px;
+      padding-right: 13px;
+    }
+    @media (min-width: 480px) {
+      .smalltext {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 22px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+    @media (min-width: 768px) {
+      .smalltext {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .smalltext {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 30px;
+        padding-left: 22px;
+        padding-right: 22px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .smalltext {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 30px;
+        padding-left: 22px;
+        padding-right: 22px;
+      }
+    }
+    .thirdheading {
+      text-align: center;
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: 40px;
+    }
+    @media (min-width: 480px) {
+      .thirdheading {
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        margin-top: 42px;
+      }
+    }
+    @media (min-width: 768px) {
+      .thirdheading {
+        text-align: center;
+        font-size: 19px;
+        font-weight: bold;
+        margin-top: 50px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .thirdheading {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 90px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .thirdheading {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 90px;
+      }
+    }
+    .thirdsmallheading {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    @media (min-width: 480px) {
+      .thirdsmallheading {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 22px;
+        padding-left: 17px;
+        padding-right: 17px;
+      }
+    }
+    @media (min-width: 768px) {
+      .thirdsmallheading {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 26px;
+        padding-left: 110px;
+        padding-right: 110px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .thirdsmallheading {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 20px;
+        padding-left: 290px;
+        padding-right: 290px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .thirdsmallheading {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 20px;
+        padding-left: 390px;
+        padding-right: 390px;
+      }
+    }
+
+    .boxthird {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    @media (min-width: 480px) {
+      .boxthird {
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+    }
+    @media (min-width: 768px) {
+      .boxthird {
+        padding-left: 220px;
+        padding-right: 220px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .boxthird {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .boxthird {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+    }
+    .text {
+      text-align: center;
+      margin-top: 40px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 12px;
+    }
+    @media (min-width: 480px) {
+      .text {
+        text-align: center;
+        margin-top: 50px;
+        padding-left: 17px;
+        padding-right: 17px;
+        font-size: 14px;
+      }
+    }
+    @media (min-width: 768px) {
+      .text {
+        text-align: center;
+        margin-top: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .text {
+        text-align: center;
+        margin-top: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .text {
+        text-align: center;
+        margin-top: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    }
+
+    .bottomtext1 {
+      text-align: end;
+      margin-top: 50px;
+      padding-right: 10px;
+      font-size: 12px;
+    }
+    @media (min-width: 480px) {
+      .bottomtext1 {
+        text-align: end;
+        margin-top: 60px;
+        padding-right: 10px;
+        font-size: 14px;
+      }
+    }
+    @media (min-width: 768px) {
+      .bottomtext1 {
+        text-align: end;
+        margin-top: 80px;
+        padding-right: 10px;
+        font-size: 16px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .bottomtext1 {
+        text-align: end;
+        margin-top: 80px;
+        padding-right: 10px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .bottomtext1 {
+        text-align: end;
+        margin-top: 80px;
+        padding-right: 10px;
+      }
+    }
+    .bottomtext2 {
+      text-align: end;
+      margin-top: 2px;
+      padding-right: 10px;
+      font-size: 12px;
+    }
+    @media (min-width: 480px) {
+      .bottomtext2 {
+        text-align: end;
+        margin-top: 3px;
+        padding-right: 10px;
+        font-size: 14px;
+      }
+    }
+    @media (min-width: 768px) {
+      .bottomtext2 {
+        text-align: end;
+        margin-top: 3px;
+        padding-right: 10px;
+        font-size: 16px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .bottomtext2 {
+        text-align: end;
+        margin-top: 2px;
+        padding-right: 10px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .bottomtext2 {
+        text-align: end;
+        margin-top: 2px;
+        padding-right: 10px;
+      }
+    }
+    .bottomtext3 {
+      text-align: end;
+      margin-top: 10px;
+      padding-right: 10px;
+      font-size: 12px;
+    }
+    @media (min-width: 480px) {
+      .bottomtext3 {
+        text-align: end;
+        margin-top: 45px;
+        padding-right: 10px;
+        font-size: 14px;
+      }
+    }
+    @media (min-width: 768px) {
+      .bottomtext3 {
+        text-align: end;
+        margin-top: 45px;
+        padding-right: 10px;
+        font-size: 16px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .bottomtext3 {
+        text-align: end;
+        margin-top: 30px;
+        padding-right: 10px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .bottomtext3 {
+        text-align: end;
+        margin-top: 45px;
+        padding-right: 10px;
+      }
+    }
+    .bottomtext4 {
+      text-align: end;
+      margin-top: 2px;
+      padding-right: 10px;
+      font-size: 12px;
+    }
+    @media (min-width: 480px) {
+      .bottomtext4 {
+        text-align: end;
+        margin-top: 3px;
+        padding-right: 10px;
+        font-size: 14px;
+      }
+    }
+    @media (min-width: 768px) {
+      .bottomtext4 {
+        text-align: end;
+        margin-top: 3px;
+        padding-right: 10px;
+        font-size: 16px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .bottomtext4 {
+        text-align: end;
+        margin-top: 2px;
+        padding-right: 10px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .bottomtext4 {
+        text-align: end;
+        margin-top: 2px;
+        padding-right: 10px;
+      }
+    }
+  </style>
+</html>
